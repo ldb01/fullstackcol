@@ -1,0 +1,317 @@
+
+
+*{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: border-box;
+
+}
+
+
+
+
+/* Navbar css begins here  */
+.navbar {
+    height: 60px;
+    background-color: #fffcfc;
+    color: #000000;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 1rem;
+    
+  }
+
+  .border12{
+    border: 2px solid transparent;
+  }
+
+  .border12:hover{
+    border: 2px solid rgb(197, 194, 194);
+  }
+  
+  .logo img {
+    margin-right: 10px;
+    margin-left: 10px;
+    
+  }
+  .mlogo{
+    width: 13vw;
+    height: 10vh;
+    background-size: cover;
+    align-items: center;
+  }
+.add-deliver{
+    font-size: 0.8rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    columns: #CCCCCC;
+    margin-left: 12px;
+}
+
+.add-location{
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-size: 0.9rem;
+    align-items: center;
+}
+
+  .clogo{
+    width: 100px;
+    height: 40px;
+  }
+
+  .cata{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+  }
+
+  
+
+  
+
+/* the bgr class is for the search, iddo why its named such */
+
+  .bgr{
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+.bgl{
+    width: 700px;
+    height: 45px;
+    
+    
+    
+    
+    
+}
+
+.searchicon{
+    width: 65px;
+    height: 45px;
+    display: flex;
+    background-color:#E50914;
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    
+
+}
+
+  input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+  }
+  
+  input[type="search"]::placeholder {
+    color: #e2e2e2;
+  }
+  
+  button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 90px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
+  button[type="submit"]:hover {
+    opacity: 1;
+  }
+  
+  button[type="submit"]:focus,
+  input[type="search"]:focus {
+    box-shadow: 0 0 3px 0 #1183d6;
+    border-color: #3b89c2;
+    outline: none;
+  }
+
+  .profileicon{
+    font-size: 27px;
+  }
+
+  .kartlogo{
+    font-size: 27px;
+  }
+
+  .plus-icon{
+    font-size: 27px;
+  }
+
+  
+
+
+
+  /* Responsive design */
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .logo {
+      margin-bottom: 10px;
+    }
+    .nav-links {
+      flex-direction: column;
+    }
+    .nav-links li a {
+      padding: 5px;
+    }
+  }
+/* navbar ends here finally :(  */
+
+body {
+  background-color: #f9f9f9;
+}
+
+
+/* Categories Section */
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 2%;
+  background-color: 	#E50914;
+}
+
+.category {
+  text-align: center;
+}
+
+.category img {
+  
+  width: 10vw;
+  height: 20vh;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(249, 6, 6, 0.1); 
+}
+
+.category img:hover {
+  transform: scale(1.1); /* zoom thingy */
+}
+
+.category p {
+  margin-top: 10px;
+  margin-bottom: -70%;
+  font-size: 23px;
+  color: #000000;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+}
+
+.category-box
+{
+  padding-left: 3%;
+}
+
+
+.banners {
+  margin-top: 150px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding: 20px;
+  
+}
+
+.banner {
+  display: inline-block;
+  width: 100%; 
+  text-align: center;
+  margin-right: 20px;
+ 
+}
+
+.banner img {
+  width: 100%;
+  height: auto; 
+}
+
+
+/** big boxes section **/
+
+.shopsection{
+  display:flex;
+  margin-top: 180px;
+
+}
+
+.boxx{
+background-color: #e0e0e0;
+ height: 400px;
+ width:25%;
+ margin: 5px;
+ padding: 10px;
+
+}
+
+.boxx:hover{
+border: 2px solid black;
+}
+
+.boxximg{
+align-items:center;
+height: 90%;
+width: 100%;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  margin-right: 20px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #666;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
